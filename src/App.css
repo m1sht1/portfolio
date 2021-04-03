@@ -1,0 +1,126 @@
+.App {
+  width:100%;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+}
+
+.App-logo {
+  margin-top: 30%;
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    /* animation: App-logo-spin infinite 20s linear; */
+  }
+}
+
+.App-header {
+  width:25%;
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.menu{
+  margin-top: 25px;
+  display:flex;
+  flex-direction: column;
+  color:white
+}
+.App-body{
+  width:75%;
+  /* min-height: 100vh; */
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* homepage */
+
+.content{
+  width:100%;
+  margin:auto;
+  display:flex;
+  justify-content: space-between;
+  padding:40px;
+}
+.about-content{
+  width:45%;
+  overflow: auto;
+}
+.phylosophy-content{
+  width:45%;
+  overflow: auto;
+}
+/* .pattern {
+  height: 100%;
+  background-image: repeating-linear-gradient(white 1px, white 24px, teal 25px);
+}  */
+
+/* RESUME */
+.content-container{
+  width:60%;
+  margin:auto;
+  word-wrap: break-word;
+  
+}
+.cover-letter{
+  min-width:4%;
+  min-height:8%;
+  max-width:4%;
+  max-height:10%;
+  margin-left:68%;
+  float:right;
+  border: 1px solid white;
+  background:black;
+  border-radius: 50%;
+  position:fixed;
+
+}
+.cover-letter:hover{
+  color:white;
+  background:coral;
+}
+.text{
+  margin-top:15%;
+  padding:5px;
+  font-size:12px;
+  font-weight: bold;
+  color:white;
+}
+
+/* .social-media{ */
+  .social-icons {
+    text-align: center;
+  }
+
+  .social-icons li {
+    display: inline-block;
+    list-style-type: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+  }
+
+  .social-icons li a {
+    border-bottom: none;
+  }
+
+  .social-icons li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 20px;
+  }
+/* } */
